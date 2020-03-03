@@ -6,7 +6,6 @@
 }
 
 nav ul {
-  color: black;
   margin: 10px;
   text-decoration: none;
 }
@@ -17,5 +16,6 @@ nav li {
   float: left;
   text-transform: capitalize;
   background: yellow;
+  color: red;
 }
 /*# sourceMappingURL=estilo.css.map */

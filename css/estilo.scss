@@ -1,3 +1,4 @@
+$color_rojo:red;
 *{
     margin: 0px;
     padding: 0px;
@@ -6,15 +7,17 @@
 }
 nav{
     ul{
-        color: black;
+        
         margin: 10px;
         text-decoration: none;
     }
     li{
-        padding: 15px;
+        $relleno:15px;
+        padding: $relleno;
         list-style: none;
         float: left;
         text-transform: capitalize;
         background: yellow;
+        color:$color_rojo;
     }
 }
