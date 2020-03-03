@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: sans-serif;
+}
+
+nav ul {
+  color: black;
+  margin: 10px;
+  text-decoration: none;
+}
+
+nav li {
+  padding: 15px;
+  list-style: none;
+  float: left;
+  text-transform: capitalize;
+  background: yellow;
+}
+/*# sourceMappingURL=estilo.css.map */
