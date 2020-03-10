@@ -1,0 +1,46 @@
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding-left: 250px;
+}
+
+footer p{
+    text-align: center;
+    background: #041b30;
+    padding: .5rem;
+    color: white;
+}
+
+.sass-box{
+    width: 13rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    a{
+        margin-top: 2rem;
+    }
+}
+
+.less-box{
+    width: 17rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    a{
+        margin-top: 2rem;
+    }
+}
+
+.stylus-box{
+    width: 17rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    a{
+        margin-top: 2rem;
+    }
+}
