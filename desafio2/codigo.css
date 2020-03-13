@@ -1,0 +1,14 @@
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-block {
+  display: block;
+}
+
+/*# sourceMappingURL=codigo.css.map */

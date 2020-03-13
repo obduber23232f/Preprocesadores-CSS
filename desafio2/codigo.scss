@@ -1,0 +1,10 @@
+$esto:(flex,grid,block);
+
+@each $r in $esto{
+    .d-#{$r}{
+      display: $r;
+      @if $r == flex{
+          justify-content: space-between;
+      }
+    }
+}
