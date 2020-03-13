@@ -11,4 +11,25 @@
   display: block;
 }
 
+@media screen and (min-width: 300px) {
+  .container1 {
+    max-width: 285px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .container2 {
+    max-width: 570px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .container3 {
+    max-width: 855px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container4 {
+    max-width: 1140px;
+  }
+}
+
 /*# sourceMappingURL=codigo.css.map */

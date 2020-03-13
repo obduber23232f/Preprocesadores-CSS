@@ -8,3 +8,10 @@ $esto:(flex,grid,block);
       }
     }
 }
+@for $x from 1 through 4{
+    @media screen and (min-width:300px * $x){
+        .container#{$x}{
+            max-width:285px * $x;
+        }
+    }
+}
